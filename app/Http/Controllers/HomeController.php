@@ -22,13 +22,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $liste = Rehber::orderBy('id', 'desc')->get();
+        $liste = Rehber::orderBy('id', 'DESC')->get();
         return view('frontend.index', compact('liste'));
     }
     public function logout()
     {
 
-        Auth::logout();
+        auth::logout();
         return redirect('/');
     }
 

@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '02cc406870175e6af12e6e227c23778bbe45c9a1',
+    'reference' => '7090bd37c5690ca3730ff9d805811e1702cbfc8d',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -436,7 +436,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '02cc406870175e6af12e6e227c23778bbe45c9a1',
+      'reference' => '7090bd37c5690ca3730ff9d805811e1702cbfc8d',
     ),
     'laravel/sail' => 
     array (
@@ -760,8 +760,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
